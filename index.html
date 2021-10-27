@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <script async src="./index.js"></script>
+        <title>Leccion5</title>
+    </head>
+    <body>
+        <header>
+            <div class="contenedor-form">
+                <form>
+                    <div class="contenedor-busqueda-boton">
+                        <input
+                            type="text"
+                            name="buscar"
+                            class="input-busqueda"
+                            placeholder="Lavarropas..."
+                        />
+                        <button type="submit" class="boton-busqueda">
+                            Buscar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </header>
+        <template class="template-cant-resultados">
+            <div class="contenedor-cantidad-resultado-busqueda">
+                <span class="resultado"></span>
+            </div>
+        </template>
+        <template class="template-ml">
+            <div class="contenedor-producto">
+                <a href="" class="link-pagina-ml">
+                    <div class="contenedor-producto-resultado">
+                        <div class="contenedor-imagen-producto">
+                            <img
+                                src=""
+                                alt="imagen-producto"
+                                class="imagen-producto"
+                            />
+                        </div>
+                        <div class="contenedor-nombre-estado-producto">
+                            <span class="span-nombre-producto"></span>
+                            <span class="span-estado-producto"></span>
+                            <span class="span-ventas-producto"></span>
+                        </div>
+                        <div class="contenedor-precio">
+                            <span class="span-precio-producto"></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </template>
+        <main>
+            <div class="contenedor-resultados"></div>
+        </main>
+    </body>
+</html>
